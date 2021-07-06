@@ -11,4 +11,4 @@
 [01]: ./bibleplan.pdf
 [02]: ./eldersplan.pdf
 [03]: ./youthplan.pdf
-[04]: https://github.com/novchurch/plan/blob/main/plan.md
+[04]: https://gist.github.com/a1ip/ace8fca44da7bd67cbf3100a645a2046
