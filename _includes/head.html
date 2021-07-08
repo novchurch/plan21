@@ -10,17 +10,17 @@
     <meta content="{{ site.title }}" property="og:title">
     <meta content="website" property="og:type">
     <meta content="{{ site.description }}" property="og:description">
-    <meta content="{{ site.url }}" property="og:url">
-    <meta content="{{ site.url }}/assets/img/{{ site.sharing_image }}" property="og:image">
+    <meta content="{{ site.url }}{{ site.baseurl }}" property="og:url">
+    <meta content="{{ site.url }}{{ site.baseurl }}/assets/img/{{ site.sharing_image }}" property="og:image">
 
     <!-- Twitter Cards -->
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@{{ site.social.twitter }}">
     <meta name="twitter:creator" content="@{{ site.social.twitter }}">
     <meta name="twitter:title" content="{{ site.title }}">
-    <meta name="twitter:url" content="{{ site.url }}">
+    <meta name="twitter:url" content="{{ site.url }}{{ site.baseurl }}">
     <meta name="twitter:description" content="{{ site.description }}">
-    <meta name="twitter:image:src" content="{{ site.url }}/assets/img/{{ site.sharing_image }}">
+    <meta name="twitter:image:src" content="{{ site.url }}{{ site.baseurl }}/assets/img/{{ site.sharing_image }}">
 
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="{{ "/assets/img/icon.svg" | relative_url }}">
@@ -31,8 +31,8 @@
     <link rel="apple-touch-icon" sizes="180x180" href="{{ "/assets/img/icon-180x180.png" | relative_url }}">
     
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="{{ "/assets/css/style.css" | prepend: site.baseurl }}">
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
+    <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | relative_url }}">
 
     {% if site.google_analytics %} {% include google_analytics.html %} {% endif %}
 </head>
