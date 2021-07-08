@@ -657,8 +657,8 @@
 [10826]: https://bible.by/syn/19/84/
 [10827]: https://bible.by/syn/19/90/
 [10828]: https://bible.by/syn/19/101/
-[10829]: https://bible.by/syn/19/105/
-[10830]: https://bible.by/syn/19/108/
+[10829]: https://bible.by/syn/19/107/
+[10830]: https://bible.by/syn/19/111/
 [10831]: https://bible.by/syn/19/118/
 [10901]: https://bible.by/syn/19/119/
 [10902]: https://bible.by/syn/19/128/
