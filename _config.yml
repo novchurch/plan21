@@ -1,11 +1,11 @@
-# Your Name or Company
-title: Uni Kravitz
+remote_theme: brianmaierjr/-uni
+title: План чтения Библии за год
 
 # Description of your website. This is used for social sharing.
-description:  The beautiful website of artist, poet, craftsperson, cyclist, and avid juggler, Uni Kravitz.
+description:  План чтения Библии за год. В предлагаемом плане Ветхий и Новый заветы читаются параллельно. Ссылки для скачивания файлов для печати (в формате PDF)
 
 # A brief blurb about yourself
-content: Nullam id dolor id nibh ultricies vehicula ut id elit. Cras mattis consectetur purus sit amet fermentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis consectetur purus sit amet fermentum.
+content: В предлагаемом плане Ветхий и Новый заветы читаются параллельно. Доступны три варианта плана для печати (в формате PDF)
 
 # Add your social links
 social:
@@ -17,7 +17,7 @@ social:
     url: ./youthplan.pdf
 
 # General settings
-https://novchurch.github.io/plan/
+url: https://novchurch.github.io/plan/
 baseurl: "/plan" 
 markdown: kramdown
 sharing_image: bible.jpg
