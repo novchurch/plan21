@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" viewBox="0 0 3000 3000">
+  <defs>
+    <mask id="cross">
+      <rect width="100%" height="100%" fill="white"/>
+      <path stroke="black" stroke-width="300" stroke-linecap="round" d="M1500 500v2000M950 1100h1100"/>
+    </mask>
+  </defs>
+  <circle cx="1500" cy="1500" r="1500" fill="#2580d3" mask="url(#cross)"/>
+</svg>
