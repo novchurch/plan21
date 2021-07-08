@@ -20,7 +20,7 @@ social:
 url: https://novchurch.github.io/plan/
 baseurl: "/plan" 
 markdown: kramdown
-sharing_image: bible.jpg
+# sharing_image: bible.jpg
 # google_analytics: "UA-58263416-1" # google analytics tracking
 
 #### LAYOUT OPTIONS #####
