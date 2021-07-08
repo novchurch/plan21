@@ -13,7 +13,7 @@ social:
     url: ./commonplan.pdf
   - platform: Молодёжный
     url: ./youthplan.pdf
-  - platform: "Крупным шрифтом"
+  - platform: "Крупный шрифт"
     url: ./eldersplan.pdf
 
 # General settings
