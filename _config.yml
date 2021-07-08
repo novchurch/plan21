@@ -17,7 +17,7 @@ social:
     url: ./youthplan.pdf
 
 # General settings
-url: https://novchurch.github.io/plan/
+url: https://novchurch.github.io/plan
 baseurl: "/plan" 
 markdown: kramdown
 sharing_image: half-sm.jpg
