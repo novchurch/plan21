@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html class="no-js" lang="ru">
+
+{% include head.html %}
+
+<body class="half">
+
+  <main>
+    <div class="half--{{ site.half_side }} half__content">
+      {{ content }}
+      {% include social.html %}
+      <p>Дополнительные материалы см. <a href="{{ site.url }}" title="Хранилище исходных кодов сайта">здесь</a>.</p>
+    </div>
+    <div class="half__image"></div>
+  </main>
+
+</body>
+
+</html>
