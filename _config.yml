@@ -11,10 +11,10 @@ content: "В предлагаемом плане Ветхий и Новый за
 social:
   - platform: Обычный
     url: ./commonplan.pdf
-  - platform: "Крупным шрифтом"
-    url: ./eldersplan.pdf
   - platform: Молодёжный
     url: ./youthplan.pdf
+  - platform: "Крупным шрифтом"
+    url: ./eldersplan.pdf
 
 # General settings
 url: https://novchurch.github.io/plan
