@@ -1,0 +1,32 @@
+# Your Name or Company
+title: Uni Kravitz
+
+# Description of your website. This is used for social sharing.
+description:  The beautiful website of artist, poet, craftsperson, cyclist, and avid juggler, Uni Kravitz.
+
+# A brief blurb about yourself
+content: Nullam id dolor id nibh ultricies vehicula ut id elit. Cras mattis consectetur purus sit amet fermentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis consectetur purus sit amet fermentum.
+
+# Add your social links
+social:
+  - platform: Обычный
+    url: ./commonplan.pdf
+  - platform: "Крупным шрифтом"
+    url: ./eldersplan.pdf
+  - platform: Молодёжный
+    url: ./youthplan.pdf
+
+# General settings
+https://novchurch.github.io/plan/
+baseurl: "/plan" 
+markdown: kramdown
+sharing_image: bible.jpg
+# google_analytics: "UA-58263416-1" # google analytics tracking
+
+#### LAYOUT OPTIONS #####
+
+# Half layout
+half_side: right
+
+# Full layout
+full_text_position: right # left, right or center
