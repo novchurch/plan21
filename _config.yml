@@ -39,10 +39,3 @@ compress_html:
     
 sass:
   style: compressed
-
-defaults:
-  -
-    scope:
-      path: "assets/img/favicon.ico"
-    values:
-      permalink: "favicon.ico"
