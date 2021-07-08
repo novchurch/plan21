@@ -30,3 +30,12 @@ half_side: right
 
 # Full layout
 full_text_position: right # left, right or center
+
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  ignore:
+    envs: [local]
+    
+sass:
+  style: compressed
