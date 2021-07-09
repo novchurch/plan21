@@ -2,6 +2,8 @@
 
 В предлагаемом плане Ветхий и Новый заветы читаются параллельно.
 
+Cсылка на скачивание [модуля для MyBible][00]:
+
 Ссылки для скачивания файлов для печати (в формате PDF):
 
 - [Шрифтом среднего размера на двух страницах][01]
@@ -14,6 +16,7 @@
 
 [![Видео-инструкция](https://i.ytimg.com/vi/IAb31rIeGZo/hqdefault.jpg)](https://www.youtube.com/watch?v=IAb31rIeGZo)
 
+[00]: ./NOVCHURCH-p.plan.SQLite3
 [01]: ./commonplan.pdf
 [02]: ./eldersplan.pdf
 [03]: ./youthplan.pdf
