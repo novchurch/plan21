@@ -1,0 +1,30 @@
+<svg width="254pt" height="176pt" viewBox="0.00 0.00 254.37 176.20" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="max-width: 100%; height: auto;">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 172.2)">
+<title>ER diagram for MyBible reading plan db</title>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-172.2 250.3668,-172.2 250.3668,4 -4,4"/>
+<!-- info -->
+<g id="node1" class="node">
+<title>info</title>
+<polygon fill="none" stroke="#000000" points="0,-50.9 0,-117.3 78.2062,-117.3 78.2062,-50.9 0,-50.9"/>
+<text text-anchor="middle" x="39.1031" y="-100.7" font-family="Times,serif" font-size="14.00" fill="#000000">info</text>
+<polyline fill="none" stroke="#000000" points="0,-92.5 78.2062,-92.5 "/>
+<text text-anchor="start" x="8" y="-75.9" font-family="Times,serif" font-size="14.00" fill="#000000">name : text</text>
+<text text-anchor="start" x="8" y="-59.1" font-family="Times,serif" font-size="14.00" fill="#000000">value : text</text>
+</g>
+<!-- reading_plan -->
+<g id="node2" class="node">
+<title>reading_plan</title>
+<polygon fill="none" stroke="#000000" points="95.8394,-.5 95.8394,-167.7 246.3668,-167.7 246.3668,-.5 95.8394,-.5"/>
+<text text-anchor="middle" x="171.1031" y="-151.1" font-family="Times,serif" font-size="14.00" fill="#000000">reading_plan</text>
+<polyline fill="none" stroke="#000000" points="95.8394,-142.9 246.3668,-142.9 "/>
+<text text-anchor="start" x="103.8394" y="-126.3" font-family="Times,serif" font-size="14.00" fill="#000000">day : numeric</text>
+<text text-anchor="start" x="103.8394" y="-109.5" font-family="Times,serif" font-size="14.00" fill="#000000">evening : numeric</text>
+<text text-anchor="start" x="103.8394" y="-92.7" font-family="Times,serif" font-size="14.00" fill="#000000">item : numeric</text>
+<text text-anchor="start" x="103.8394" y="-75.9" font-family="Times,serif" font-size="14.00" fill="#000000">book_number : numeric</text>
+<text text-anchor="start" x="103.8394" y="-59.1" font-family="Times,serif" font-size="14.00" fill="#000000">start_chapter : numeric</text>
+<text text-anchor="start" x="103.8394" y="-42.3" font-family="Times,serif" font-size="14.00" fill="#000000">start_verse : numeric</text>
+<text text-anchor="start" x="103.8394" y="-25.5" font-family="Times,serif" font-size="14.00" fill="#000000">end_chapter : numeric</text>
+<text text-anchor="start" x="103.8394" y="-8.7" font-family="Times,serif" font-size="14.00" fill="#000000">end_verse : numeric</text>
+</g>
+</g>
+</svg>
