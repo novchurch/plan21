@@ -2,14 +2,12 @@
 layout: half
 title: План чтения Библии за год
 ---
-  {% if site.title %}
-  <h1 class="pageTitle">{{ site.title }}</h1>
-  {% endif %}
-
-  {% if site.content %}
-  <p class="pageContent">{{ site.content }}</p>
-  {% endif %}
-
-  {% include social.html %}
-  
-  <p>Дополнительные материалы см. <a href="https://github.com/novchurch/plan" title="Хранилище исходных кодов сайта">здесь</a>.</p>
+{% if site.title %}
+<h1 class="pageTitle">{{ site.title }}</h1>
+{% endif %}
+{% if site.content %}
+<p class="pageContent">{{ site.content }}</p>
+{% endif %}
+<p class="pageContent">В предлагаемом плане Ветхий и Новый заветы читаются параллельно. Доступен и в виде модуля для приложения <a href="https://mybible.zone" title="сайт приложения MyBible">MyBible</a>, и в виде трёх вариантов для печати (в формате PDF):</p>
+{% include social.html %}
+<p class="pageContent">Дополнительные материалы см. <a href="https://github.com/novchurch/plan" title="Хранилище исходных кодов сайта">здесь</a>.</p>
