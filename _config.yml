@@ -14,7 +14,7 @@ social:
     url: ./youthplan.pdf
   - platform: "Крупный шрифт"
     url: ./eldersplan.pdf
-  - platform: "модуль MyBible"
+  - platform: "Модуль MyBible"
     url: ./NOVCHURCH-p.plan.SQLite3
 
 # General settings
