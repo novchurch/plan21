@@ -9,8 +9,9 @@ jobs:
       - name: Compile LaTeX document
         uses: xu-cheng/latex-action@v2
         with:
+          working_directory: download
           root_file: |
-            download/youthplan.tex
+            youthplan.tex
             download/eldersplan.tex
-            download/commonplan.tex
-            download/plan10.tex
+            commonplan.tex
+            plan10.tex
