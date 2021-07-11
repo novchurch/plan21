@@ -1,52 +1,12 @@
-name: LateX CV to PDF
-
-on:
-  push:
-    branches: 
-      - main
-    tags:
-       - '*'
-  pull_request:
-    branches: [ main ]
-
+name: Build LaTeX document
+on: [push]
 jobs:
   build_latex:
     runs-on: ubuntu-latest
     steps:
       - name: Set up Git repository
         uses: actions/checkout@v2
-      - name: latex2pdf
-        id: compile-latex-document
-        uses: a1ip/latex2pdf-action@1.0.3
+      - name: Compile LaTeX document
+        uses: xu-cheng/latex-action@v2
         with:
-          output_dir: download
-          main_latex_file: commonplan.tex
-          ctan_packages: ec cmap xargs bigfoot colortbl pgf fontawesome cyrillic babel-russian fbb ly1 psnfss
-      - name: Upload Plan in PDF to the workflow tab
-        id: upload-workflow-tab
-        uses: actions/upload-artifact@v2
-        with:
-          name: plan
-          path: download/plan.pdf
-      - name: Create Release
-        id: create_release
-        if: startsWith(github.ref, 'refs/tags/')
-        uses: actions/create-release@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          tag_name: ${{ github.ref }}
-          release_name: Release ${{ github.ref }}
-          draft: false
-          prerelease: false
-      - name: Upload Plan Release
-        id: upload-release-asset
-        if: startsWith(github.ref, 'refs/tags/')
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: download/plan.pdf
-          asset_name: plan.pdf
-          asset_content_type: application/pdf
+          root_file: download/commonplan.tex
