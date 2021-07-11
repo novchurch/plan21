@@ -56,7 +56,7 @@ sitemap:
   {% for file in site.data.downloads %}
     {% unless file.sitemap.exclude == "yes" or file.name == "feed.xml" %}
     <url>
-      <loc>{{ site.url }}{{ site.baseurl }}download/{{ file.name" }}</loc>
+      <loc>{{ site.url }}{{ site.baseurl }}/download/{{ file.name" }}</loc>
       {% if file.sitemap.lastmod %}
         <lastmod>{{ file.sitemap.lastmod | date: "%Y-%m-%d" }}</lastmod>
       {% elsif file.date %}
