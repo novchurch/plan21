@@ -21,8 +21,8 @@ jobs:
         with:
           output_dir: download
           main_latex_file: commonplan.tex
-          ctan_packages: cmap xargs bigfoot colortbl pgf fontawesome
-      - name: Upload CV in PDF to the workflow tab
+          ctan_packages: cmap xargs bigfoot colortbl pgf fontawesome cyrillic
+      - name: Upload Plan in PDF to the workflow tab
         id: upload-workflow-tab
         uses: actions/upload-artifact@v2
         with:
