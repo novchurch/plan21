@@ -7,6 +7,10 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v1
+    - uses: actions/checkout@v1
+    - name: Install cyrillic
+      run: |
+        sudo apt-get install texlive-lang-cyrillic
     - name: Convert to pdf
       id: convert-to-pdf
       uses: closoco/pdflatex-action@v1.1.0
