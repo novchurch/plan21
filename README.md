@@ -16,8 +16,8 @@
 
 [![Видео-инструкция](https://i.ytimg.com/vi/IAb31rIeGZo/hqdefault.jpg)](https://www.youtube.com/watch?v=IAb31rIeGZo)
 
-[00]: ./NOVCHURCH-p.plan.SQLite3
-[01]: ./commonplan.pdf
-[02]: ./eldersplan.pdf
-[03]: ./youthplan.pdf
+[00]: ./download/NOVCHURCH-p.plan.SQLite3
+[01]: ./download/commonplan.pdf
+[02]: ./download/eldersplan.pdf
+[03]: ./download/youthplan.pdf
 [04]: https://gist.github.com/a1ip/ace8fca44da7bd67cbf3100a645a2046
