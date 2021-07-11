@@ -9,7 +9,7 @@ jobs:
       uses: actions/checkout@v1
     - name: Convert to pdf
       id: convert-to-pdf
-      uses: closoco/pdflatex-action@v1.0.0
+      uses: closoco/pdflatex-action@v1.1.0
       with:
         texFile: download/commonplan.tex
     - name: Store pdf
