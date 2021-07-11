@@ -53,4 +53,28 @@ sitemap:
     </url>
     {% endunless %}
   {% endfor %}
+  {% for file in site.data.downloads %}
+    {% unless file.sitemap.exclude == "yes" or file.name == "feed.xml" %}
+    <url>
+      <loc>{{ site.url }}{{ site.baseurl }}{{ file.url" }}</loc>
+      {% if file.sitemap.lastmod %}
+        <lastmod>{{ file.sitemap.lastmod | date: "%Y-%m-%d" }}</lastmod>
+      {% elsif file.date %}
+        <lastmod>{{ file.date | date_to_xmlschema }}</lastmod>
+      {% else %}
+        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+      {% endif %}
+      {% if file.sitemap.changefreq %}
+        <changefreq>{{ file.sitemap.changefreq }}</changefreq>
+      {% else %}
+        <changefreq>monthly</changefreq>
+      {% endif %}
+      {% if file.sitemap.priority %}
+        <priority>{{ file.sitemap.priority }}</priority>
+      {% else %}
+        <priority>0.5</priority>
+      {% endif %}
+    </url>
+    {% endunless %}
+  {% endfor %}
 </urlset>
