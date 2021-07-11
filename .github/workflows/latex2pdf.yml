@@ -21,7 +21,7 @@ jobs:
         with:
           output_dir: download
           main_latex_file: commonplan.tex
-          ctan_packages: ec cmap xargs bigfoot colortbl pgf fontawesome cyrillic cm-super cm-unicode LH
+          ctan_packages: ec cmap xargs bigfoot colortbl pgf fontawesome cyrillic babel-russian fbb ly1 psnfss
       - name: Upload Plan in PDF to the workflow tab
         id: upload-workflow-tab
         uses: actions/upload-artifact@v2
