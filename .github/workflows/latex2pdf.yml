@@ -12,6 +12,6 @@ jobs:
           working_directory: download
           root_file: |
             youthplan.tex
-            download/eldersplan.tex
+            eldersplan.tex
             commonplan.tex
             plan10.tex
