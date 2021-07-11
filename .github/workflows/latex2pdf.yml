@@ -14,5 +14,5 @@ jobs:
             plan10.tex
       - uses: actions/upload-artifact@v2
         with:
-          name: PDF
-          path: plan.pdf
+          name: plan
+          path: plan10.pdf
