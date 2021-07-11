@@ -17,7 +17,7 @@ jobs:
         uses: actions/checkout@v2
       - name: latex2pdf
         id: compile-latex-document
-        uses: a1ip/latex2pdf-action@1.0.3
+        uses: a1ip/latex2pdf-action
         with:
           output_dir: download
           main_latex_file: commonplan.tex
