@@ -12,7 +12,11 @@ jobs:
           working_directory: download
           root_file: |
             plan10.tex
-      - uses: actions/upload-artifact@v2
+      - name: Publish to GitHub pages
+        if: success() && github.ref == 'refs/heads/main'
+        uses: crazy-max/ghaction-github-pages@v1
         with:
-          name: plan
-          path: plan10.pdf
+          target_branch: main
+          build_dir: download/
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
