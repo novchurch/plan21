@@ -16,6 +16,16 @@ social:
     url: ./download/eldersplan.pdf
   - platform: "Модуль MyBible"
     url: ./download/NOVCHURCH-p.plan.SQLite3
+# Add your download links    
+download:
+  - platform: Обычный
+    url: ./download/commonplan.pdf
+  - platform: Молодёжный
+    url: ./download/youthplan.pdf
+  - platform: "Крупный шрифт"
+    url: ./download/eldersplan.pdf
+  - platform: "Модуль MyBible"
+    url: ./download/NOVCHURCH-p.plan.SQLite3
 
 # General settings
 url: https://novchurch.github.io
