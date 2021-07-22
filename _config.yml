@@ -6,16 +6,6 @@ description:  "Скачать план чтения Библии за год. В
 # A brief blurb about yourself
 # content: "В предлагаемом плане Ветхий и Новый заветы читаются параллельно. Доступен и в виде модуля для приложения <a href="https://mybible.zone" title="сайт приложения MyBible">MyBible</a>, и в виде трёх вариантов для печати (в формате PDF):"
 
-# Add your social links
-social:
-  - platform: Обычный
-    url: ./download/commonplan.pdf
-  - platform: Молодёжный
-    url: ./download/youthplan.pdf
-  - platform: "Крупный шрифт"
-    url: ./download/eldersplan.pdf
-  - platform: "Модуль MyBible"
-    url: ./download/NOVCHURCH-p.plan.SQLite3
 # Add your download links    
 download:
   - platform: Обычный
