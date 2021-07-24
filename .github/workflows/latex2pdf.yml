@@ -23,9 +23,7 @@ jobs:
       - name: Push PDFs
         run: |
           git checkout --orphan ${GITHUB_REF##*/}-pdf
-          git rm -rf .github/
           cd download
-          git rm -rf . 
           git add -f plan10.pdf commonplan.pdf eldersplan.pdf youthplan.pdf
-          git -c user.name='paper-maker' -c user.email='paper-maker' commit -m "update pdf"
+          git -c user.name='paper-maker' commit -m "autoupdate pdf"
           git push -q -f https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} ${GITHUB_REF##*/}-pdf
