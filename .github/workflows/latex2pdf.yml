@@ -39,13 +39,23 @@ jobs:
         with:
           name: youthplan.pdf
           path: download/youthplan.pdf
-      - name: Release
+      - name: Release plan10.pdf
         uses: fnkr/github-action-ghr@v1
-        if: startsWith(github.ref, 'refs/tags/')
         env:
-          GHR_PATH: |
-            download/plan10.pdf
-            download/commonplan.pdf
-            download/eldersplan.pdf
-            download/youthplan.pdf
+          GHR_PATH: download/plan10.pdf
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Release commonplan.pdf
+        uses: fnkr/github-action-ghr@v1
+        env:
+          GHR_PATH: download/commonplan.pdf
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Release eldersplan.pdf
+        uses: fnkr/github-action-ghr@v1
+        env:
+          GHR_PATH: download/eldersplan.pdf
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Release youthplan.pdf
+        uses: fnkr/github-action-ghr@v1
+        env:
+          GHR_PATH: download/youthplan.pdf
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
