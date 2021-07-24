@@ -20,6 +20,10 @@ jobs:
         with:
           name: PDF
           path: download/plan10.pdf
+      - name: Remove File
+        uses: JesseTG/rm@v1.0.2
+        with:
+          path: download/plan10.pdf
       - name: Download PDF
         uses: actions/download-artifact@v2
         with:
