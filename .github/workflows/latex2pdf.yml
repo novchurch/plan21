@@ -15,8 +15,13 @@ jobs:
           working_directory: download
           root_file: |
             plan10.tex
+      - name: Upload PDF
+        uses: actions/upload-artifact@v2
+        with:
+          name: PDF
+          path: download/plan10.pdf
       - name: Download PDF
         uses: actions/download-artifact@v2
         with:
-          name: plan10.pdf
+          name: PDF
           path: download/plan10.pdf 
