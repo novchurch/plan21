@@ -19,26 +19,6 @@ jobs:
             commonplan.tex
             eldersplan.tex
             youthplan.tex
-      - name: Upload plan10.pdf
-        uses: actions/upload-artifact@v2
-        with:
-          name: plan10.pdf
-          path: download/plan10.pdf
-      - name: Upload commonplan.pdf
-        uses: actions/upload-artifact@v2
-        with:
-          name: commonplan.pdf
-          path: download/commonplan.pdf
-      - name: Upload eldersplan.pdf
-        uses: actions/upload-artifact@v2
-        with:
-          name: eldersplan.pdf
-          path: download/eldersplan.pdf
-      - name: Upload youthplan.pdf
-        uses: actions/upload-artifact@v2
-        with:
-          name: youthplan.pdf
-          path: download/youthplan.pdf
       - name: Release plan10.pdf
         uses: fnkr/github-action-ghr@v1
         env:
