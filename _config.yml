@@ -21,7 +21,7 @@ download:
 url: https://novchurch.github.io
 baseurl: "/plan" 
 markdown: kramdown
-sharing_image: half-sm.jpg
+sharing_image: card.png
 # google_analytics: "UA-58263416-1" # google analytics tracking
 
 #### LAYOUT OPTIONS #####
