@@ -15,7 +15,7 @@ download:
   - platform: "Крупный шрифт"
     url: ./download/eldersplan.pdf
   - platform: "Модуль MyBible"
-    url: ./download/NOVCHURCH-p.plan.SQLite3
+    url: ./download/NovChurch-p.plan.SQLite3
 
 # General settings
 url: https://novchurch.github.io
