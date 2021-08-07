@@ -1,5 +1,11 @@
 # 🗓План чтения Библии за год
 
+[![PDFs Made with LaTeX](https://img.shields.io/badge/LaTeX-47A141?style=for-the-badge&logo=LaTeX&logoColor=white)](https://www.latex-project.org)
+[![Automated by GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)](https://github.com/features/actions)
+[![Web Site Made with Jekyll](https://img.shields.io/badge/jekyll-3.9.0-blue.svg)](https://jekyllrb.com)
+[![Powered by Liquid Templates](https://img.shields.io/badge/liquid-4.0.3-blue.svg)](https://shopify.github.io/liquid/)
+[![Powered by SASS CSS pre-processor](https://img.shields.io/badge/sass-3.7.4-blue.svg)](https://sass-lang.com)
+
 В предлагаемом плане Ветхий и Новый заветы читаются параллельно.
 
 [Cкачать в виде модуля для приложения `MyBible`][00].
