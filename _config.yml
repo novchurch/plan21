@@ -19,7 +19,7 @@ download:
 
 # General settings
 url: https://novchurch.github.io
-baseurl: "/plan" 
+baseurl: "/plan21" 
 markdown: kramdown
 sharing_image: card.png
 # google_analytics: "UA-58263416-1" # google analytics tracking
