@@ -680,7 +680,7 @@ html {
 body {
   font-family: "PT Serif", Georgia, Times, serif;
   line-height: 1.75;
-  font-size: 112.5%;
+  font-size: clamp(112.5%, 1.1vw, 200%); /*was 112.5%;*/
   color: #111;
   overflow-x: hidden;
   margin: 0; }
