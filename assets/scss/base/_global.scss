@@ -21,7 +21,7 @@ body {
   margin: 0;
 
   @include min(md) {
-    font-size: 112.5%;
+    font-size: clamp(120%, 1.5vw, 200%); //was 112.5%;
   }
 
   p,
