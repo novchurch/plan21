@@ -1,20 +1,20 @@
 ---
 ---
 // Site base
-@import "./base/normalize";
-@import "./base/config";
-@import "./base/mixins";
-@import "./base/typography";
-@import "./base/global";
+@import "./base/normalize.scss";
+@import "./base/config.scss";
+@import "./base/mixins.scss";
+@import "./base/typography.scss";
+@import "./base/global.scss";
 
 // Modules
-@import "./modules/buttons";
-// @import "./modules/forms";
-// @import "./modules/tables";
-@import "./modules/links";
-@import "./modules/lists";
+@import "./modules/buttons.scss";
+// @import "./modules/forms.scss";
+// @import "./modules/tables.scss";
+@import "./modules/links.scss";
+@import "./modules/lists.scss";
 
 // Import Layouts
-@import "./layouts/half";
-@import "./layouts/full";
-@import "./layouts/card";
+@import "./layouts/half.scss";
+@import "./layouts/full.scss";
+@import "./layouts/card.scss";
