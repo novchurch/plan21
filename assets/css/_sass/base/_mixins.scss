@@ -1,7 +1,7 @@
 /// Pixels to Rems Function
 /// Return a rem value of the exact amount of pixels that you need
 /// @example
-///     padding: rem(20);
+///   padding: rem(20);
 @function rem($pixels, $context: $browser-context) {
   @return #{$pixels/$context}rem;
 }
