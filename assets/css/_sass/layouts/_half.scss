@@ -49,6 +49,6 @@
     order: 1;
     background-size: cover;
     background-position: center;
-    @include responsivebackground("../img/half-sm.jpg", "../img/half-md.jpg", "../img/half-lg.jpg");
+    @include responsivebackground("{{ "half-sm.jpg" | relative_url }}", "{{ "half-md.jpg" | relative_url }}", "{{ "half-lg.jpg" | relative_url }}");
   }
 }
