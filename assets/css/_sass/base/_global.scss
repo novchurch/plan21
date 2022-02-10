@@ -22,7 +22,7 @@ body {
   margin: 0;
 
   @include min(md) {
-    font-size: clamp(120%, 1.5vw, 200%); //was 112.5%;
+    font-size: clamp(20px, 2.2vmin, 30px); //was 112.5%;
   }
 
   p,
