@@ -11,13 +11,13 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 // Headings
 h1, .h1 {
   font-size: rem(32); // 2x body copy size = 32px
-  line-height: 1.25; // 45px / 36px
+  line-height: 1.0; // 45px / 36px // was 1.125
 }
 
 @media (min-width: $bp_1) {
   h1, .h1 {
     font-size: rem(40); // 2.5x body copy size = 40px
-    line-height: 1.125;
+    line-height: 1.0; // was 1.125
   }
 }
 
